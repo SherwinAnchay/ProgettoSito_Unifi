@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Philadelphia Inquirer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<header id="header">
+  <div id="header-inner">
+    <div class="header-left">
+      <div class="header-date">Sunday, April 26, 2026</div>
+      <div class="header-links">
+        <a href="#">Today's Paper</a>
+        <span>|</span>
+        <a href="#">Newsletters</a>
+      </div>
+    </div>
+    <a href="#" class="header-logo">The Philadelphia Inquirer</a>
+    <div class="header-right">
+      <a href="#" class="header-signin">Sign In</a>
+      <a href="#" class="header-subscribe">
+        Subscribe
+        <small>Special offer</small>
+      </a>
+    </div>
+  </div>
+</header>
+
+
+
+<!-- SECTIONS BAR -->
+<div id="sections-bar">
+  <div id="sections-inner">
+    <button class="nav-icon" aria-label="Menu">&#9776;</button>
+    <button class="nav-icon" aria-label="Search">&#9906;</button>
+    <a href="#" class="sec-item active">News</a>
+    <a href="#" class="sec-item">Sports</a>
+    <a href="#" class="sec-item">Business</a>
+    <a href="#" class="sec-item">Opinion</a>
+    <a href="#" class="sec-item">Politics</a>
+    <a href="#" class="sec-item">Entertainment</a>
+    <a href="#" class="sec-item">Life</a>
+    <a href="#" class="sec-item">Food</a>
+    <a href="#" class="sec-item">Health</a>
+    <a href="#" class="sec-item">Real Estate</a>
+    <a href="#" class="sec-item">Philly First</a>
+    <a href="#" class="sec-item">Obituaries</a>
+    <a href="#" class="sec-item">Legal Notices</a>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav id="nav">
+  <div id="nav-inner">
+    <div style="display:flex; align-items:center; gap:4px; flex-shrink:0;">
+      <button class="nav-icon" aria-label="Menu">&#9776;</button>
+      <button class="nav-icon" aria-label="Search">&#9906;</button>
+    </div>
+    <a href="#" class="nav-logo">The Philadelphia Inquirer</a>
+    <div style="display:flex; align-items:center; gap:14px; flex-shrink:0; margin-left:auto;">
+      <a href="#" style="font-family:'DM Sans',sans-serif; font-size:11px; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; text-decoration:underline; color:var(--ink);">Sign In</a>
+      <a href="#" style="background:#f5c518; color:var(--ink); font-family:'DM Sans',sans-serif; font-size:11px; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; text-decoration:none; padding:8px 14px; white-space:nowrap;">Subscribe</a>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- MAIN CONTENT -->
+<div id="main">
+
+  <!-- HERO: 3 colonne -->
+  <section id="hero">
+
+    <!-- COL SINISTRA: articolo grande con foto -->
+    <a href="#" class="article-link col-left">
+      <div class="img-wrap">
+        <img src="https://placehold.co/800x340/f5f5f5/aaaaaa?text=800x340" alt="Flyers bench" loading="eager">
+      </div>
+      <div style="margin-top:10px">
+        <span class="opinion-tag">Opinion</span>
+        <h1 class="h1" style="margin-top:4px">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+        <p class="deck" style="margin-top:8px">Curabitur semper, velit in commodo molestie, dui nisl pharetra ante, eget aliquet urna nibh ac mauris. Nam vel dui fringilla, finibus mi id, pretium eros.</p>
+      </div>
+    </a>
+
+    <div class="vr"></div>
+
+    <!-- COL CENTRO: articolo medio con foto e bullet -->
+    <a href="#" class="article-link col-mid">
+      <div class="img-wrap">
+        <img src="https://placehold.co/800x260/f5f5f5/aaaaaa?text=800x260" alt="Eagles NFL Draft" loading="lazy">
+      </div>
+      <h2 class="h2 h2-link" style="margin-top:12px">Nam vel dui fringilla, finibus mi id, pretium eros. Donec venenatis rutrum ligula.</h2>
+      <p class="deck deck-sm" style="margin-top:6px">Donec varius semper leo, ut dapibus mi facilisis nec.</p>
+      <ul class="bullet-list">
+        <li>Praesent at blandit eros. Pellentesque sed sagittis leo. Vestibulum sed egestas elit.</li>
+        <li>Suspendisse feugiat purus non tortor aliquet convallis. Suspendisse vitae leo enim.</li>
+      </ul>
+    </a>
+
+    <div class="vr"></div>
+
+    <!-- COL DESTRA: THE LATEST -->
+    <div class="latest-col">
+      <div class="latest-title">The Latest</div>
+
+      <div class="latest-item">
+        <p>Pellentesque sed sagittis leo. Vestibulum sed egestas elit. <span class="ago">2 hours ago</span></p>
+      </div>
+      <div class="latest-item">
+        <p> Phasellus lacinia accumsan enim in tempus. Etiam id malesuada sapien, ut feugiat purus.</p>
+      </div>
+      <div class="latest-item">
+        <p>Curabitur cursus eget tortor imperdiet posuere. Nunc a enim at ex molestie posuere.</p>
+      </div>
+      <div class="latest-item">
+        <span class="opinion-tag">Opinion</span>
+        <p>Vestibulum ut porta nunc, eget luctus mauris. Duis eu purus hendrerit, blandit nunc eu, placerat est.</p>
+      </div>
+      <div class="latest-item">
+        <p>Nunc est enim, euismod ac ullamcorper eu, pharetra ac tellus.</p>
+      </div>
+      <div class="latest-item">
+        <p>Quisque congue imperdiet justo egestas tempor.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- SEZIONE 2: THE WEEKEND -->
+  <section id="weekend" style="padding: 24px 0; border-bottom: 1px solid var(--rule);">
+    <div style="margin-bottom: 16px;">
+      <div style="font-family:'DM Sans',sans-serif; font-size:17px; font-weight:800; letter-spacing:0.02em; text-transform:uppercase; color:var(--ink); margin-bottom:6px;">The Weekend</div>
+      <div style="height:3px; width:220px; background:#8b5cf6;"></div>
+    </div>
+    <div style="display:grid; grid-template-columns: 3fr 2fr; gap:28px; align-items:start;">
+      <!-- Immagine illustrativa sinistra -->
+      <a href="#" class="article-link">
+        <div class="img-wrap" style="height:340px; border-radius:6px; background:#e8f0d8;">
+        <img src="https://placehold.co/800x340/f5f5f5/aaaaaa?text=800x340" alt="Mall illustration" loading="lazy" style="object-position:center;">
+        </div>
+      </a>
+      <!-- Testo destra -->
+      <div>
+        <a href="#" class="article-link">
+          <h2 style="font-family:'Playfair Display',serif; font-size:24px; font-weight:800; line-height:1.2; color:var(--ink); margin-bottom:10px;">Fusce iaculis, nibh nec semper faucibus, nisl justo sollicitudin libero.</h2>
+          <p style="font-family:'DM Sans',sans-serif; font-size:14px; line-height:1.5; color:var(--ink); margin-bottom:14px;">Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ut porta nunc.</p>
+        </a>
+        <hr style="border:none; border-top:1px solid var(--rule); margin-bottom:14px;">
+        <div style="font-family:'DM Sans',sans-serif; font-size:13px; font-weight:700; color:var(--ink); margin-bottom:10px;">More from this weekend:</div>
+        <div style="display:flex; flex-direction:column; gap:8px;">
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:#1a6ea8; text-decoration:none; display:flex; align-items:flex-start; gap:6px;">
+            <span style="flex-shrink:0;">🔍</span><span>Etiam id malesuada sapien, ut feugiat purus</span>
+          </a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:#1a6ea8; text-decoration:none; display:flex; align-items:flex-start; gap:6px;">
+            <span style="flex-shrink:0;">🏠</span><span>In sit amet ligula nec lacus molestie porttitor id at turpi</span>
+          </a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:#1a6ea8; text-decoration:none; display:flex; align-items:flex-start; gap:6px;">
+            <span style="flex-shrink:0;">🏒</span><span> Nam sed consectetur nulla, sed eleifend urna?</span>
+          </a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:#1a6ea8; text-decoration:none; display:flex; align-items:flex-start; gap:6px;">
+            <span style="flex-shrink:0;">⛵</span><span>Ut bibendum tortor eget risus porta pellentesque</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEZIONE 3: NFL DRAFT -->
+  <section id="nfl-draft" style="padding:24px 0; border-bottom:1px solid var(--rule);">
+
+    <!-- Header sezione -->
+    <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:14px;">
+      <div style="font-family:'DM Sans',sans-serif; font-size:17px; font-weight:800; text-transform:uppercase; letter-spacing:0.02em; color:var(--ink);">NFL Draft</div>
+      <a href="#" style="font-family:'DM Sans',sans-serif; font-size:14px; font-weight:700; color:var(--ink); text-decoration:none;">More →</a>
+    </div>
+    <hr style="border:none; border-top:2px solid var(--ink); margin-bottom:18px;">
+
+    <!-- Grid 4 colonne -->
+    <div style="display:grid; grid-template-columns: 2fr 1.5fr 1.5fr 2fr; gap:20px; align-items:start;">
+
+      <!-- COL 1: articolo grande -->
+      <a href="#" class="article-link">
+        <div class="img-wrap" style="height:280px; margin-bottom:12px;">
+        <img src="https://placehold.co/800x280/f5f5f5/aaaaaa?text=800x280" alt="Eagles Draft" loading="lazy">
+        </div>
+        <h2 style="font-family:'Playfair Display',serif; font-size:22px; font-weight:700; line-height:1.2; color:var(--ink);">Pellentesque blandit ultrices massa et pellentesque</h2>
+        <p style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--muted); margin-top:8px; line-height:1.5;">Duis vel felis nibh. Ut fringilla, nibh commodo placerat mollis, nulla nulla.</p>
+      </a>
+
+      <!-- COL 2: 2 articoli medi -->
+      <div style="display:flex; flex-direction:column; gap:16px;">
+        <a href="#" class="article-link">
+          <div class="img-wrap" style="height:130px; margin-bottom:9px;">
+        <img src="https://placehold.co/800x130/f5f5f5/aaaaaa?text=800x130" alt="QB Cole Payton" loading="lazy">
+          </div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink);"> Nam sollicitudin eros at risus ornare, vitae aliquam lacus pretium. In sit amet ligula nec</h3>
+        </a>
+        <hr style="border:none; border-top:1px solid var(--rule);">
+        <a href="#" class="article-link">
+          <div class="img-wrap" style="height:130px; margin-bottom:9px;">
+        <img src="https://placehold.co/800x130/f5f5f5/aaaaaa?text=800x130" alt="Eagles draft haul" loading="lazy">
+          </div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink);">Nunc est enim, euismod ac ullamcorper eu, pharetra ac tellus</h3>
+        </a>
+      </div>
+
+      <!-- COL 3: 2 articoli medi -->
+      <div style="display:flex; flex-direction:column; gap:16px;">
+        <a href="#" class="article-link">
+          <div class="img-wrap" style="height:130px; margin-bottom:9px;">
+        <img src="https://placehold.co/800x130/f5f5f5/aaaaaa?text=800x130" alt="Jonathan Greenard" loading="lazy">
+          </div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink);">Morbi ac nibh quis justo placerat eleifend vel sed urna. Duis vel felis nibh. Ut fringilla</h3>
+        </a>
+        <hr style="border:none; border-top:1px solid var(--rule);">
+        <a href="#" class="article-link">
+          <div style="margin-bottom:6px;"><span class="opinion-tag">Opinion</span></div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink);">Duis sed lorem ac risus feugiat semper nec a ante vivamus mollis</h3>
+        </a>
+      </div>
+
+      <!-- COL 4: tabella picks -->
+      <div>
+        <h3 style="font-family:'Playfair Display',serif; font-size:22px; font-weight:700; line-height:1.2; color:var(--ink); margin-bottom:4px;"> Etiam id malesuada sapien</h3>
+        <p style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--muted); margin-bottom:14px;">Nam sollicitudin eros at risus ornare.</p>
+        <table style="width:100%; border-collapse:collapse; font-family:'DM Sans',sans-serif; font-size:12px;">
+          <thead>
+            <tr style="border-bottom:2px solid var(--ink);">
+              <th style="text-align:left; padding:5px 6px 5px 0; font-weight:700; color:var(--ink); white-space:nowrap;">Rd-Pk</th>
+              <th style="text-align:left; padding:5px 6px; font-weight:700; color:var(--ink);">Posuere</th>
+              <th style="text-align:left; padding:5px 6px; font-weight:700; color:var(--ink);">Pok.</th>
+              <th style="text-align:left; padding:5px 0; font-weight:700; color:var(--ink);">magna</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid var(--rule);">
+              <td style="padding:6px 6px 6px 0; color:var(--muted);">1-20</td>
+              <td style="padding:6px;">Fusce Iaculis</td>
+              <td style="padding:6px; color:var(--muted);">WR</td>
+              <td style="padding:6px 0; color:var(--muted);">PFR</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--rule);">
+              <td style="padding:6px 6px 6px 0; color:var(--muted);">2-54</td>
+              <td style="padding:6px;">Congue Quam</td>
+              <td style="padding:6px; color:var(--muted);">TE</td>
+              <td style="padding:6px 0; color:var(--muted);">Hendrerit </td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--rule);">
+              <td style="padding:6px 6px 6px 0; color:var(--muted);">3-68</td>
+              <td style="padding:6px;">Maecenas Sed</td>
+              <td style="padding:6px; color:var(--muted);">T</td>
+              <td style="padding:6px 0; color:var(--muted);">Aliquam</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--rule);">
+              <td style="padding:6px 6px 6px 0; color:var(--muted);">5-178</td>
+              <td style="padding:6px;">Blandit Eros</td>
+              <td style="padding:6px; color:var(--muted);">QB</td>
+              <td style="padding:6px 0; color:var(--muted);">Commodo</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--rule);">
+              <td style="padding:6px 6px 6px 0; color:var(--muted);">6-207</td>
+              <td style="padding:6px;">Donec Feugiat</td>
+              <td style="padding:6px; color:var(--muted);">G</td>
+              <td style="padding:6px 0; color:var(--muted);">Ornare</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--rule);">
+              <td style="padding:6px 6px 6px 0; color:var(--muted);">7-244</td>
+              <td style="padding:6px;">Ipsum Dolor</td>
+              <td style="padding:6px; color:var(--muted);">S</td>
+              <td style="padding:6px 0; color:var(--muted);">Egestas</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--rule);">
+              <td style="padding:6px 6px 6px 0; color:var(--muted);">7-251</td>
+              <td style="padding:6px;">Ultrices Massa</td>
+              <td style="padding:6px; color:var(--muted);">DT</td>
+              <td style="padding:6px 0; color:var(--muted);">Malesuada</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SEZIONE 4: THE REGION -->
+  <section id="the-region" style="padding:24px 0; border-bottom:1px solid var(--rule);">
+
+    <!-- Header -->
+    <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:14px;">
+      <div style="font-family:'DM Sans',sans-serif; font-size:17px; font-weight:800; text-transform:uppercase; letter-spacing:0.02em; color:var(--ink);">The Region</div>
+      <a href="#" style="font-family:'DM Sans',sans-serif; font-size:14px; font-weight:700; color:var(--ink); text-decoration:none;">More →</a>
+    </div>
+    <hr style="border:none; border-top:2px solid var(--ink); margin-bottom:18px;">
+
+    <!-- Grid: 3 colonne -->
+    <div style="display:grid; grid-template-columns:2fr 1px 1.5fr 1px 1.5fr; gap:20px; align-items:start;">
+
+      <!-- COL 1: articolo grande -->
+      <a href="#" class="article-link">
+        <div class="img-wrap" style="height:220px; margin-bottom:12px;">
+        <img src="https://placehold.co/800x220/f5f5f5/aaaaaa?text=800x220" alt="Police car lights" loading="lazy">
+        </div>
+        <h2 style="font-family:'Playfair Display',serif; font-size:21px; font-weight:700; line-height:1.2; color:var(--ink); margin-bottom:8px;">Sed eget mollis mi, ac viverra risus</h2>
+        <p style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--muted); line-height:1.55;">Nunc a enim at ex molestie posuere. Fusce iaculis, nibh nec semper faucibus, nisl justo sollicitudin libero, nec suscipit sem nulla at orci. Morbi ac nibh quis.</p>
+      </a>
+
+      <div class="vr"></div>
+
+      <!-- COL 2: 2 articoli -->
+      <div style="display:flex; flex-direction:column; gap:16px;">
+        <a href="#" class="article-link" style="display:block; padding-bottom:16px; border-bottom:1px solid var(--rule);">
+          <div class="img-wrap" style="height:140px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x140/f5f5f5/aaaaaa?text=800x140" alt="Lower Merion High School" loading="lazy">
+          </div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink);">Fusce nec rutrum lacus. In at nulla dapibus, eleifend metus et, pellentesque ex</h3>
+        </a>
+        <a href="#" class="article-link" style="display:block;">
+          <div class="img-wrap" style="height:140px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x140/f5f5f5/aaaaaa?text=800x140" alt="Penn protest" loading="lazy">
+          </div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink);">Vestibulum mattis eros ut ornare tincidunt. Praesent nulla magna, ultricies sit amet egestas sed</h3>
+        </a>
+      </div>
+
+      <div class="vr"></div>
+
+      <!-- COL 3: 2 articoli -->
+      <div style="display:flex; flex-direction:column; gap:16px;">
+        <a href="#" class="article-link" style="display:block; padding-bottom:16px; border-bottom:1px solid var(--rule);">
+          <div class="img-wrap" style="height:140px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x140/f5f5f5/aaaaaa?text=800x140" alt="Laurel Hill Cemetery tree" loading="lazy">
+          </div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink);">Morbi ac nibh quis justo placerat eleifend vel sed urna. Duis vel felis nibh</h3>
+        </a>
+        <a href="#" class="article-link" style="display:block;">
+          <div class="img-wrap" style="height:140px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x140/f5f5f5/aaaaaa?text=800x140" alt="Food best things we ate" loading="lazy">
+          </div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink);">Nunc est enim, euismod ac ullamcorper eu</h3>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SEZIONE 5: SPORTS -->
+  <section id="sports-section" style="padding:24px 0; border-bottom:1px solid var(--rule);">
+
+    <!-- Header -->
+    <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:14px;">
+      <div style="display:flex; align-items:center; gap:8px;">
+        <span style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--muted);">𝕀</span>
+        <span style="font-family:'DM Sans',sans-serif; font-size:17px; font-weight:800; text-transform:uppercase; letter-spacing:0.02em; color:var(--ink);">Sports</span>
+      </div>
+      <a href="#" style="font-family:'DM Sans',sans-serif; font-size:14px; font-weight:700; color:var(--ink); text-decoration:none;">More →</a>
+    </div>
+    <hr style="border:none; border-top:2px solid var(--ink); margin-bottom:18px;">
+
+    <!-- Grid: 3 colonne -->
+    <div style="display:grid; grid-template-columns:2fr 1px 1.5fr 1px 1.5fr; gap:20px; align-items:start;">
+
+      <!-- COL 1: articolo grande con foto tall -->
+      <a href="#" class="article-link">
+        <div class="img-wrap" style="height:370px; margin-bottom:12px;">
+        <img src="https://placehold.co/800x370/f5f5f5/aaaaaa?text=800x370" alt="Flyers goalie" loading="lazy">
+        </div>
+        <h2 style="font-family:'Playfair Display',serif; font-size:22px; font-weight:700; line-height:1.2; color:var(--ink);">Phasellus at efficitur enim. Proin commodo libero risus, id bibendum</h2>
+        <p style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--muted); margin-top:8px; line-height:1.5;">Phasellus cursus lacus a ante malesuada vestibulum. Sed faucibus et sem vel fringilla</p>
+        <div style="font-family:'DM Sans',sans-serif; font-size:11px; color:var(--byline); margin-top:10px; font-style:italic;">Morbi laoreet</div>
+      </a>
+
+      <div class="vr"></div>
+
+      <!-- COL 2: 2 articoli -->
+      <div style="display:flex; flex-direction:column; gap:0;">
+        <a href="#" class="article-link" style="padding-bottom:16px; border-bottom:1px solid var(--rule); margin-bottom:16px; display:block;">
+          <div class="img-wrap" style="height:150px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x150/f5f5f5/aaaaaa?text=800x150" alt="Phillies Wheeler" loading="lazy">
+          </div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:16px; font-weight:700; line-height:1.25; color:var(--ink);">Nulla mattis, quam quis tempus suscipit, sapien dui molestie diam</h3>
+        </a>
+        <a href="#" class="article-link" style="display:block;">
+          <div style="margin-bottom:6px;"><span class="opinion-tag">Opinion</span></div>
+          <div class="img-wrap" style="height:150px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x150/f5f5f5/aaaaaa?text=800x150" alt="Flyers bench" loading="lazy">
+          </div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:16px; font-weight:700; line-height:1.25; color:var(--ink);">Morbi a lorem vitae magna consequat porta. In rutrum lectus lacus, vitae.</h3>
+          <div style="font-family:'DM Sans',sans-serif; font-size:11px; color:var(--byline); margin-top:6px; font-style:italic;">Morbi laoreet</div>
+        </a>
+      </div>
+
+      <div class="vr"></div>
+
+      <!-- COL 3: 2 articoli -->
+      <div style="display:flex; flex-direction:column; gap:0;">
+        <a href="#" class="article-link" style="padding-bottom:16px; border-bottom:1px solid var(--rule); margin-bottom:16px; display:block;">
+          <div class="img-wrap" style="height:150px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x150/f5f5f5/aaaaaa?text=800x150" alt="Flyers Penguins" loading="lazy">
+          </div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:16px; font-weight:700; line-height:1.25; color:var(--ink);">Pellentesque lobortis, arcu eget dignissim ullamcorper, nibh arcu</h3>
+        </a>
+        <a href="#" class="article-link" style="display:block;">
+          <div class="img-wrap" style="height:150px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x150/f5f5f5/aaaaaa?text=800x150" alt="Union soccer" loading="lazy">
+          </div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:16px; font-weight:700; line-height:1.25; color:var(--ink);">Cras volutpat felis vel dolor sollicitudin accumsan</h3>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SEZIONE 6: INQUIRER NEWSLETTERS -->
+  <section id="newsletters" style="padding:24px 0; border-bottom:1px solid var(--rule); background:var(--paper);">
+
+    <!-- Header -->
+    <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:4px;">
+      <div style="font-family:'DM Sans',sans-serif; font-size:17px; font-weight:800; text-transform:uppercase; letter-spacing:0.02em; color:var(--ink);">Inquirer Newsletters</div>
+      <a href="#" style="font-family:'DM Sans',sans-serif; font-size:14px; font-weight:700; color:var(--ink); text-decoration:none;">Sign Up →</a>
+    </div>
+    <p style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--muted); margin-bottom:16px;">Donec fringilla elit magna, eu congue massa vehicula vel. Nunc hendrerit quis metus at sodales.</p>
+    <hr style="border:none; border-top:2px solid var(--ink); margin-bottom:18px;">
+
+    <!-- 4 colonne -->
+    <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:20px; align-items:start;">
+
+      <a href="#" class="article-link" style="display:block;">
+        <div class="img-wrap" style="height:140px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x140/f5f5f5/aaaaaa?text=800x140" alt="Morning Newsletter" loading="lazy">
+        </div>
+        <div style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); line-height:1.4; display:flex; align-items:flex-start; gap:6px;">
+          <span style="flex-shrink:0;">🏘️</span>
+          <span><strong>Ut efficitur non erat ut luctus</strong> | Morning Newsletter</span>
+        </div>
+      </a>
+
+      <a href="#" class="article-link" style="display:block;">
+        <div class="img-wrap" style="height:140px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x140/f5f5f5/aaaaaa?text=800x140" alt="ICE Out bills" loading="lazy">
+        </div>
+        <div style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); line-height:1.4; display:flex; align-items:flex-start; gap:6px;">
+          <span style="flex-shrink:0;">📋</span>
+          <span><strong>Vestibulum urna odio, pharetra</strong> | Morning Newsletter</span>
+        </div>
+      </a>
+
+      <a href="#" class="article-link" style="display:block;">
+        <div class="img-wrap" style="height:140px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x140/f5f5f5/aaaaaa?text=800x140" alt="Set sail this weekend" loading="lazy">
+        </div>
+        <div style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); line-height:1.4; display:flex; align-items:flex-start; gap:6px;">
+          <span style="flex-shrink:0;">⛵</span>
+          <span><strong>Quisque ultrices erat vel ipsum suscipit</strong> | Things to do</span>
+        </div>
+      </a>
+
+      <a href="#" class="article-link" style="display:block;">
+        <div class="img-wrap" style="height:140px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x140/f5f5f5/aaaaaa?text=800x140" alt="Real Estate Newsletter" loading="lazy">
+        </div>
+        <div style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); line-height:1.4; display:flex; align-items:flex-start; gap:6px;">
+          <span style="flex-shrink:0;">🏢</span>
+          <span><strong>Pellentesque at augue ullamcorper</strong> | Real Estate Newsletter</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- SEZIONE 7: REAL ESTATE -->
+  <section id="real-estate" style="padding:24px 0; border-bottom:1px solid var(--rule);">
+
+    <!-- Header -->
+    <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:14px;">
+      <div style="font-family:'DM Sans',sans-serif; font-size:17px; font-weight:800; text-transform:uppercase; letter-spacing:0.02em; color:var(--ink);">Real Estate</div>
+      <a href="#" style="font-family:'DM Sans',sans-serif; font-size:14px; font-weight:700; color:var(--ink); text-decoration:none;">More →</a>
+    </div>
+    <hr style="border:none; border-top:2px solid var(--ink); margin-bottom:0;">
+
+    <!-- Lista articoli verticale -->
+    <div style="display:flex; flex-direction:column;">
+
+      <a href="#" class="article-link" style="display:grid; grid-template-columns:160px 1fr; gap:16px; padding:16px 0; border-bottom:1px solid var(--rule);">
+        <div class="img-wrap" style="height:110px;">
+        <img src="https://placehold.co/800x110/f5f5f5/aaaaaa?text=800x110" alt="Dean Adler malls" loading="lazy">
+        </div>
+        <div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:16px; font-weight:700; line-height:1.25; color:var(--ink); margin-bottom:6px;">Nulla mattis, quam quis tempus suscipit, sapien dui molestie diam, quis commodo enim dui et metus?</h3>
+          <p style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--muted); line-height:1.5;">Etiam tempor nibh elit, nec sagittis ante sagittis at. Phasellus in euismod enim.</p>
+        </div>
+      </a>
+
+      <a href="#" class="article-link" style="display:grid; grid-template-columns:160px 1fr; gap:16px; padding:16px 0; border-bottom:1px solid var(--rule);">
+        <div class="img-wrap" style="height:110px;">
+        <img src="https://placehold.co/800x110/f5f5f5/aaaaaa?text=800x110" alt="North Philly homes" loading="lazy">
+        </div>
+        <div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:16px; font-weight:700; line-height:1.25; color:var(--ink); margin-bottom:6px;">Nulla sit amet ultricies diam. Vestibulum in faucibus nibh, sed faucibus neque. Ut efficitur non erat ut luctus</h3>
+          <p style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--muted); line-height:1.5;">Fusce vel venenatis felis. Proin leo augue, hendrerit id diam ac, auctor blandit neque. Proin facilisis elementum mattis. Aenean in nisl est.</p>
+        </div>
+      </a>
+
+      <a href="#" class="article-link" style="display:grid; grid-template-columns:160px 1fr; gap:16px; padding:16px 0; border-bottom:1px solid var(--rule);">
+        <div class="img-wrap" style="height:110px;">
+        <img src="https://placehold.co/800x110/f5f5f5/aaaaaa?text=800x110" alt="Renters protest" loading="lazy">
+        </div>
+        <div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:16px; font-weight:700; line-height:1.25; color:var(--ink); margin-bottom:6px;">Aliquam nec suscipit leo, a rutrum ex. Pellentesque eget massa turpis. Donec eget nisl ac sapien laoreet luctus.</h3>
+          <p style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--muted); line-height:1.5;">Proin imperdiet, augue a hendrerit interdum, mi lacus porta lorem, a luctus sem mi vel neque. Donec cursus in lectus id posuere. Nunc enim tellus, rutrum eu nibh vitae, luctus eleifend lorem.</p>
+        </div>
+      </a>
+
+      <a href="#" class="article-link" style="display:grid; grid-template-columns:160px 1fr; gap:16px; padding:16px 0;">
+        <div class="img-wrap" style="height:110px;">
+        <img src="https://placehold.co/800x110/f5f5f5/aaaaaa?text=800x110" alt="SEPTA Conshohocken apartments" loading="lazy">
+        </div>
+        <div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:16px; font-weight:700; line-height:1.25; color:var(--ink); margin-bottom:6px;">Nam facilisis massa non ante porttitor, vitae imperdiet elit commodo. Ut eu placerat tortor</h3>
+          <p style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--muted); line-height:1.5;">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut consectetur lacus ut lorem ultrices, quis condimentum metus iaculis.</p>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- SEZIONE 8: FOOD & DRINK -->
+  <section id="food-drink" style="padding:24px 0; border-bottom:1px solid var(--rule);">
+
+    <!-- Header -->
+    <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:14px;">
+      <div style="font-family:'DM Sans',sans-serif; font-size:17px; font-weight:800; text-transform:uppercase; letter-spacing:0.02em; color:var(--ink);">Food & Drink</div>
+      <a href="#" style="font-family:'DM Sans',sans-serif; font-size:14px; font-weight:700; color:var(--ink); text-decoration:none;">More →</a>
+    </div>
+    <hr style="border:none; border-top:2px solid var(--ink); margin-bottom:18px;">
+
+    <!-- 2 colonne -->
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:28px; align-items:start;">
+
+      <!-- COL SINISTRA: articolo principale -->
+      <a href="#" class="article-link">
+        <div class="img-wrap" style="height:260px; margin-bottom:12px;">
+        <img src="https://placehold.co/800x260/f5f5f5/aaaaaa?text=800x260" alt="Philly food" loading="lazy">
+        </div>
+        <h2 style="font-family:'Playfair Display',serif; font-size:22px; font-weight:700; line-height:1.2; color:var(--ink); margin-bottom:8px;">Quisque quis nisi in nisl blandit laoreet. Maecenas vitae pulvinar justo. Integer at diam eget tellus egestas</h2>
+        <p style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--muted); line-height:1.55;">Proin eget purus malesuada, posuere dolor ullamcorper, sodales est. Fusce nec venenatis purus, et egestas massa.</p>
+      </a>
+
+      <!-- COL DESTRA: box THE 76 -->
+      <div>
+        <div style="background:#faf7ec; border:1px solid #e0d8b0; padding:20px;">
+          <div style="font-family:'DM Sans',sans-serif; font-size:11px; font-weight:800; letter-spacing:0.15em; text-transform:uppercase; color:var(--ink); margin-bottom:8px;">The 76</div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:20px; font-weight:700; line-height:1.2; color:var(--ink); margin-bottom:14px;">Praesent faucibus bibendum nibh id porta. Nam iaculis pretium mauris, sit amet mattis</h3>
+
+          <!-- Logo box -->
+          <div style="background:#f5f0d8; border:1px solid #ddd5a0; padding:16px; display:flex; align-items:center; gap:16px; margin-bottom:14px;">
+            <div style="width:70px; height:70px; border-radius:50%; background:#fff; border:2px solid var(--ink); display:flex; flex-direction:column; align-items:center; justify-content:center; flex-shrink:0;">
+              <div style="font-family:'DM Sans',sans-serif; font-size:9px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--ink);">The</div>
+              <div style="font-family:'Playfair Display',serif; font-size:28px; font-weight:900; line-height:1; color:var(--ink);">76</div>
+            </div>
+            <div class="img-wrap" style="height:70px; flex:1; border-radius:3px;">
+        <img src="https://placehold.co/800x70/f5f5f5/aaaaaa?text=800x70" alt="Restaurant interior" loading="lazy">
+            </div>
+          </div>
+
+          <p style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--muted); line-height:1.5; margin-bottom:12px;"> Integer at diam eget tellus egestas tristique vitae et sapien. Vivamus ac turpis nisl.</p>
+
+          <ul style="list-style:disc; padding-left:18px; margin:0;">
+            <li style="font-family:'DM Sans',sans-serif; font-size:13px; color:#1a6ea8; line-height:1.5;">
+              <a href="#" style="color:#1a6ea8; text-decoration:none;">Maecenas commodo erat placerat tortor eleifend iaculis</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SEZIONE 9: WEEKEND GUIDES -->
+  <section id="weekend-guides" style="padding:24px 0; border-bottom:1px solid var(--rule);">
+
+    <!-- Header -->
+    <div style="border-top:2px solid var(--ink); padding-top:12px; margin-bottom:0;">
+      <div style="font-family:'DM Sans',sans-serif; font-size:17px; font-weight:800; text-transform:uppercase; letter-spacing:0.02em; color:var(--ink);">Weekend Guides</div>
+    </div>
+
+    <!-- Lista articoli verticale -->
+    <div style="display:flex; flex-direction:column;">
+
+      <a href="#" class="article-link" style="display:grid; grid-template-columns:160px 1fr; gap:16px; padding:16px 0; border-bottom:1px solid var(--rule);">
+        <div class="img-wrap" style="height:105px;">
+        <img src="https://placehold.co/800x105/f5f5f5/aaaaaa?text=800x105" alt="Philadelphia weekend events" loading="lazy">
+        </div>
+        <div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink); margin-bottom:5px;"> Pellentesque eget massa turpis. Donec eget nisl ac sapien laoreet luctus</h3>
+          <p style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--muted); line-height:1.5;">Sed at commodo augue, nec interdum quam. Proin non mi mauris. Aenean sapien mauris, pulvinar in volutpat id, maximus sed ante.</p>
+        </div>
+      </a>
+
+      <a href="#" class="article-link" style="display:grid; grid-template-columns:160px 1fr; gap:16px; padding:16px 0; border-bottom:1px solid var(--rule);">
+        <div class="img-wrap" style="height:105px;">
+        <img src="https://placehold.co/800x105/f5f5f5/aaaaaa?text=800x105" alt="Philly Theatre Week" loading="lazy">
+        </div>
+        <div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink); margin-bottom:5px;">Nam turpis tortor, molestie quis nisl sed, accumsan luctus ex. Vivamus enim est, blandit</h3>
+          <p style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--muted); line-height:1.5;">Aliquam nec suscipit leo, a rutrum ex. Pellentesque eget massa turpis. Donec eget nisl ac sapien laoreet luctus. Maecenas sit amet placerat.</p>
+        </div>
+      </a>
+
+      <a href="#" class="article-link" style="display:grid; grid-template-columns:160px 1fr; gap:16px; padding:16px 0; border-bottom:1px solid var(--rule);">
+        <div class="img-wrap" style="height:105px;">
+        <img src="https://placehold.co/800x105/f5f5f5/aaaaaa?text=800x105" alt="Spring markets Philadelphia" loading="lazy">
+        </div>
+        <div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink); margin-bottom:5px;">Phasellus at efficitur enim. Proin commodo libero risus, id bibendum</h3>
+          <p style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--muted); line-height:1.5;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie odio nec sem mattis, at pulvinar enim congue. Nam a est a nisl.</p>
+        </div>
+      </a>
+
+      <a href="#" class="article-link" style="display:grid; grid-template-columns:160px 1fr; gap:16px; padding:16px 0;">
+        <div class="img-wrap" style="height:105px;">
+        <img src="https://placehold.co/800x105/f5f5f5/aaaaaa?text=800x105" alt="Florence and the Machine concert" loading="lazy">
+        </div>
+        <div>
+          <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink); margin-bottom:5px;">Phasellus sit amet ligula nec eros dignissim faucibus. Aliquam nisi arcu, viverra sagittis</h3>
+          <p style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--muted); line-height:1.5;">Aenean vel urna ante. Phasellus nec ipsum in augue viverra laoreet eu eu ante. Nullam iaculis lectus a molestie porttitor.</p>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- SEZIONE 10: HEALTH & SCIENCE -->
+  <section id="health-science" style="padding:24px 0; border-bottom:1px solid var(--rule);">
+
+    <!-- Header -->
+    <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:14px;">
+      <div style="font-family:'DM Sans',sans-serif; font-size:17px; font-weight:800; text-transform:uppercase; letter-spacing:0.02em; color:var(--ink);">Health & Science</div>
+      <a href="#" style="font-family:'DM Sans',sans-serif; font-size:14px; font-weight:700; color:var(--ink); text-decoration:none;">More →</a>
+    </div>
+    <hr style="border:none; border-top:2px solid var(--ink); margin-bottom:18px;">
+
+    <!-- 4 colonne -->
+    <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:20px; align-items:start;">
+
+      <a href="#" class="article-link">
+        <div class="img-wrap" style="height:150px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x150/f5f5f5/aaaaaa?text=800x150" alt="kidney disease research" loading="lazy">
+        </div>
+        <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink);">Quisque consectetur est quis molestie porta. Praesent faucibus bibendum nibh id porta. Nam iaculis pretium.</h3>
+      </a>
+
+      <a href="#" class="article-link">
+        <div class="img-wrap" style="height:150px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x150/f5f5f5/aaaaaa?text=800x150" alt="sick person cold" loading="lazy">
+        </div>
+        <div style="margin-bottom:6px;"><span class="opinion-tag">Opinion</span></div>
+        <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink); margin-bottom:6px;">Sed efficitur, elit sit amet blandit sodales, diam turpis rutrum risus, at condimentum tortor</h3>
+        <div style="font-family:'DM Sans',sans-serif; font-size:11px; color:var(--muted); font-style:italic;">Maecenas commodo erat placerat tortor eleifend iaculis</div>
+      </a>
+
+      <a href="#" class="article-link">
+        <div class="img-wrap" style="height:150px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x150/f5f5f5/aaaaaa?text=800x150" alt="child autism" loading="lazy">
+        </div>
+        <div style="margin-bottom:6px;"><span class="opinion-tag">Opinion</span></div>
+        <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink); margin-bottom:6px;">Vivamus efficitur lectus a mauris convallis, vel scelerisque felis dignissim</h3>
+        <div style="font-family:'DM Sans',sans-serif; font-size:11px; color:var(--muted); font-style:italic;">Proin eu faucibus lacus. Duis luctus</div>
+      </a>
+
+      <a href="#" class="article-link">
+        <div class="img-wrap" style="height:150px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x150/f5f5f5/aaaaaa?text=800x150" alt="bat rabies Haddonfield" loading="lazy">
+        </div>
+        <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink);">Bat found in Haddonfield attic tests positive for rabies, officials say</h3>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- SEZIONE: NATION & WORLD -->
+  <section id="nation-world" style="padding:24px 0; border-bottom:1px solid var(--rule);">
+
+    <!-- Header -->
+    <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:14px;">
+      <div style="font-family:'DM Sans',sans-serif; font-size:17px; font-weight:800; text-transform:uppercase; letter-spacing:0.02em; color:var(--ink);">Nation & World</div>
+      <a href="#" style="font-family:'DM Sans',sans-serif; font-size:14px; font-weight:700; color:var(--ink); text-decoration:none;">More →</a>
+    </div>
+    <hr style="border:none; border-top:2px solid var(--ink); margin-bottom:18px;">
+
+    <!-- 4 colonne -->
+    <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:20px; align-items:start;">
+
+      <a href="#" class="article-link">
+        <div class="img-wrap" style="height:150px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x150/f5f5f5/aaaaaa?text=800x150" alt="White House correspondents dinner" loading="lazy">
+        </div>
+        <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink);">Accused gunman at White House correspondents' dinner was believed to be targeting top officials, acting AG says</h3>
+      </a>
+
+      <a href="#" class="article-link">
+        <div class="img-wrap" style="height:150px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x150/f5f5f5/aaaaaa?text=800x150" alt="Trump shooting incident" loading="lazy">
+        </div>
+        <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink);">Trump unharmed after shooting incident at White House correspondents' dinner</h3>
+      </a>
+
+      <a href="#" class="article-link">
+        <div class="img-wrap" style="height:150px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x150/f5f5f5/aaaaaa?text=800x150" alt="King Charles III" loading="lazy">
+        </div>
+        <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink);">Despite Iran tensions, King Charles III will follow his mother's lead in celebrating U.S.-U.K. bonds</h3>
+      </a>
+
+      <a href="#" class="article-link">
+        <div class="img-wrap" style="height:150px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x150/f5f5f5/aaaaaa?text=800x150" alt="Trump National Science Board" loading="lazy">
+        </div>
+        <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink);">Trump ousts National Science Board members</h3>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- SEZIONE: PHOTOGRAPHY -->
+  <section id="photography" style="padding:24px 0; border-bottom:1px solid var(--rule);">
+
+    <!-- Header -->
+    <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:14px;">
+      <div style="display:flex; align-items:center; gap:8px;">
+        <span style="font-family:'DM Sans',sans-serif; font-size:17px; font-weight:800; text-transform:uppercase; letter-spacing:0.02em; color:var(--ink);">Photography</span>
+        <span style="font-size:16px;">📷</span>
+      </div>
+      <a href="#" style="font-family:'DM Sans',sans-serif; font-size:14px; font-weight:700; color:var(--ink); text-decoration:none;">More →</a>
+    </div>
+    <hr style="border:none; border-top:2px solid var(--ink); margin-bottom:18px;">
+
+    <!-- 4 colonne -->
+    <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:20px; align-items:start;">
+
+      <a href="#" class="article-link">
+        <div class="img-wrap" style="height:150px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x150/f5f5f5/aaaaaa?text=800x150" alt="Penguins Flyers Game 4" loading="lazy">
+        </div>
+        <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink);">Penguins win over Flyers 4-2 in Game 4</h3>
+      </a>
+
+      <a href="#" class="article-link">
+        <div class="img-wrap" style="height:150px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x150/f5f5f5/aaaaaa?text=800x150" alt="Penn Relays 2026" loading="lazy">
+        </div>
+        <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink);">Penn Relays 2026 day three at Franklin Field</h3>
+      </a>
+
+      <a href="#" class="article-link">
+        <div class="img-wrap" style="height:150px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x150/f5f5f5/aaaaaa?text=800x150" alt="Pink flowers hamburger helper" loading="lazy">
+        </div>
+        <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink);">Pink flowers and 'hamburger helper'</h3>
+      </a>
+
+      <a href="#" class="article-link">
+        <div class="img-wrap" style="height:150px; margin-bottom:10px;">
+        <img src="https://placehold.co/800x150/f5f5f5/aaaaaa?text=800x150" alt="Eagles photographers April 24" loading="lazy">
+        </div>
+        <h3 style="font-family:'Playfair Display',serif; font-size:15px; font-weight:700; line-height:1.25; color:var(--ink);">What our photographers saw on Friday, April 24</h3>
+      </a>
+
+    </div>
+  </section>
+
+</div><!-- /main -->
+
+<!-- FOOTER -->
+<footer style="background:#fff; border-top:1px solid var(--rule); margin-top:32px;">
+  <div style="max-width:var(--max-w); margin:0 auto; padding:32px 24px 0;">
+
+    <div style="display:grid; grid-template-columns:2fr 1.5fr 1.5fr 1fr; gap:32px; padding-bottom:28px; border-bottom:1px solid var(--rule);">
+
+      <!-- GET IN TOUCH -->
+      <div>
+        <div style="font-family:'DM Sans',sans-serif; font-size:12px; font-weight:800; letter-spacing:0.1em; text-transform:uppercase; color:var(--ink); margin-bottom:12px;">Get In Touch</div>
+        <div style="display:flex; flex-direction:column; gap:5px;">
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">About The Inquirer</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Advertise</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Gift & Group Subscriptions</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Contact Us</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Become an Affiliate</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Subscriber Services</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Newsroom Staff</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Confidential Tips</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Licensing & Permissions</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Reprints</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Careers</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Delivery Jobs</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Inquirer Store</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Legal Notices</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Death Notices</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Subscribe</a>
+        </div>
+      </div>
+
+      <!-- NEWS -->
+      <div>
+        <div style="font-family:'DM Sans',sans-serif; font-size:12px; font-weight:800; letter-spacing:0.1em; text-transform:uppercase; color:var(--ink); margin-bottom:12px;">News</div>
+        <div style="display:flex; flex-direction:column; gap:5px;">
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Today's Paper</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">News</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Sports</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Entertainment</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Business</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Health & Science</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Food</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Opinion</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Philly First</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Inquirer LIVE</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Archives</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Site Map</a>
+        </div>
+      </div>
+
+      <!-- GIVING -->
+      <div>
+        <div style="font-family:'DM Sans',sans-serif; font-size:12px; font-weight:800; letter-spacing:0.1em; text-transform:uppercase; color:var(--ink); margin-bottom:12px;">Giving</div>
+        <div style="display:flex; flex-direction:column; gap:5px;">
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Donate to The Inquirer</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">About the High-Impact Journalism Fund</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Other Ways to Contribute</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">About The Lenfest Institute</a>
+        </div>
+      </div>
+
+      <!-- MOBILE APPS -->
+      <div>
+        <div style="font-family:'DM Sans',sans-serif; font-size:12px; font-weight:800; letter-spacing:0.1em; text-transform:uppercase; color:var(--ink); margin-bottom:12px;">Mobile Apps</div>
+        <div style="display:flex; flex-direction:column; gap:5px;">
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Apple iOS</a>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:13px; color:var(--ink); text-decoration:none;">Google Android</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Copyright bar -->
+    <div style="display:flex; justify-content:space-between; align-items:center; padding:14px 0;">
+      <div>
+        <div style="font-family:'DM Sans',sans-serif; font-size:11px; color:var(--muted); margin-bottom:4px;">© 2026 The Philadelphia Inquirer, LLC</div>
+        <div style="display:flex; gap:0; flex-wrap:wrap; align-items:center;">
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:11px; color:var(--muted); text-decoration:none;">Terms of Use</a>
+          <span style="font-family:'DM Sans',sans-serif; font-size:11px; color:var(--muted); margin:0 6px;">/</span>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:11px; color:var(--muted); text-decoration:none;">Privacy Policy</a>
+          <span style="font-family:'DM Sans',sans-serif; font-size:11px; color:var(--muted); margin:0 6px;">/</span>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:11px; color:var(--muted); text-decoration:none;">AI Usage Policy</a>
+          <span style="font-family:'DM Sans',sans-serif; font-size:11px; color:var(--muted); margin:0 6px;">/</span>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:11px; color:var(--muted); text-decoration:none;">California Notice</a>
+          <span style="font-family:'DM Sans',sans-serif; font-size:11px; color:var(--muted); margin:0 6px;">/</span>
+          <a href="#" style="font-family:'DM Sans',sans-serif; font-size:11px; color:var(--muted); text-decoration:none;">Do Not Sell My Data</a>
+        </div>
+      </div>
+      <div style="display:flex; gap:18px; align-items:center;">
+        <a href="#" style="color:var(--ink); text-decoration:none; font-family:'DM Sans',sans-serif; font-size:15px; font-weight:800;">𝕏</a>
+        <a href="#" style="color:var(--ink); text-decoration:none; font-family:'DM Sans',sans-serif; font-size:17px; font-weight:700;">f</a>
+        <a href="#" style="color:var(--ink); text-decoration:none; font-size:16px;">📷</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
